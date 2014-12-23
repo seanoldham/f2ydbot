@@ -4,6 +4,14 @@ gem "lita"
 
 gem "lita-slack"
 
+gem "lita-gems"
+
+gem "lita-google"
+
+gem "lita-google-images"
+
+gem "lita-weather"
+
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
 
