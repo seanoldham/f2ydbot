@@ -20,11 +20,11 @@ Lita.configure do |config|
   config.robot.name = "f2ydbot"
   config.robot.mention_name = "f2ydbot"
   config.robot.adapter = :slack
-  config.adapters.slack.token = "xoxb-3281136442-Bvzb1dprhGlHqbATFTpALUZh"
+  config.adapters.slack.token = ENV["SLACK_TOKEN"]
 
 
   # lita-weather
-  config.handlers.weather.api_key = "82a916f5b8855f48"
+  config.handlers.weather.api_key = ENV["WEATHER_KEY"]
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"
