@@ -17,6 +17,8 @@ Lita.configure do |config|
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
+  config.robot.name = "f2ydbot"
+  config.robot.mention_name = "f2ydbot"
   config.robot.adapter = :slack
   config.adapters.slack.token = "xoxb-3281136442-Bvzb1dprhGlHqbATFTpALUZh"
 
