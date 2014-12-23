@@ -22,6 +22,9 @@ Lita.configure do |config|
   config.robot.adapter = :slack
   config.adapters.slack.token = "xoxb-3281136442-Bvzb1dprhGlHqbATFTpALUZh"
 
+
+  # lita-weather
+  config.handlers.weather.api_key = "82a916f5b8855f48"
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"
